@@ -3,9 +3,9 @@
 /**
 *_islower - check wheter character is lowercase or upper case
 *
-*@param c: character to be checked if is lowercase (character)
+*@c: character to be checked if is lowercase (character)
 *
-*@return value of 1 and 0 according to case of character (int) 
+*Return: Always 0
 */
 
 int _islower(char c)
