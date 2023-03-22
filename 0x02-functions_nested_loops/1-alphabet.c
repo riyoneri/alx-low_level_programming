@@ -1,13 +1,14 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - function for printing all lowercase alphabet
+ * Return: 0 (Success);
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+char ch;
+for (ch = 97; ch <= 122; ch++)
+{
+_putchar(ch);
+}
+_putchar('\n');
 }
