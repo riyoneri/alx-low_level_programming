@@ -14,7 +14,7 @@ int number_mod;
 
 if (num < 0)
 {
-num *= -1;
+-((unsigned int)num);
 }
 
 number_mod = num % 10;
