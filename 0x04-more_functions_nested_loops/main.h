@@ -13,3 +13,5 @@ void print_most_numbers(void);
 void long_int(int c);
 
 void more_numbers(void);
+
+void print_line(int n);
