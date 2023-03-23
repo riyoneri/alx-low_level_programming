@@ -16,4 +16,4 @@ int print_last_digit(int num);
 
 void fibbo(void);
 
-int print_long(long num);
+void print_long(long num);
