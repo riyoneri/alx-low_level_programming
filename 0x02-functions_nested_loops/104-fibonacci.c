@@ -52,3 +52,14 @@ num1 = num2;
 num2 = num3;
 }
 }
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+fibbo();
+return (0);
+}
