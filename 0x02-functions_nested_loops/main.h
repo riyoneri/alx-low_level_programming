@@ -14,4 +14,6 @@ int _abs(int);
 
 int print_last_digit(int num);
 
-int fibbo();
+void fibbo(void);
+
+int print_long(int num);
