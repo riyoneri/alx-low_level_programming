@@ -17,3 +17,5 @@ int print_last_digit(int num);
 void fibbo(void);
 
 void print_long(long num);
+
+void jack_bauer();
