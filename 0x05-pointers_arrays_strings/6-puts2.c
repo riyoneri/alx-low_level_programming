@@ -15,5 +15,10 @@ _putchar(*(s + i));
 i = i + 2;
 }
 
+if ((*(s + i) != '\0'))
+{
+_putchar(*(s + i));
+}
+
 _putchar('\n');
 }
