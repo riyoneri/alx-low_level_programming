@@ -14,7 +14,7 @@ while ((*(s + i) != '\0'))
 i++;
 }
 
-halph = i % 2 == 0 ? i / 2 : (i - 1) / 2;
+halph = (i + 1) / 2;
 
 while (*(s + halph) != '\0')
 {
