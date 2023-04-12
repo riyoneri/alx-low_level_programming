@@ -13,8 +13,8 @@ char *a;
 int i, j, len1, len2;
 
 i = 0;
-len1 = s1 == NULL ? -1 : strlen(s1);
-len2 = s2 == NULL ? -1 : strlen(s2);
+len1 = s1 == NULL ? 0 : strlen(s1);
+len2 = s2 == NULL ? 0 : strlen(s2);
 
 a = malloc((sizeof(char) * (len1 + 1)) + (sizeof(char) * (len2 + 1)));
 
